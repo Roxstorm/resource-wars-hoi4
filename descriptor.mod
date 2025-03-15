@@ -6,6 +6,7 @@ replace_path="events"
 replace_path="common/ideas"
 replace_path="common/decisions"
 replace_path="history/states"
+replace_path="map/strategicregions"
 tags={
 	"Alternative History"
 	"Gameplay"

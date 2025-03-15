@@ -13508,8 +13508,8 @@
 13507;1;144;32;land;true;mountain;2
 13508;24;88;243;land;false;mountain;2
 13509;210;62;125;land;true;mountain;2
-13510;182;18;82;land;true;mountain;2
-13511;190;39;70;land;true;mountain;2
+13510;182;18;82;land;false;mountain;2
+13511;190;39;70;land;false;mountain;2
 13512;24;43;63;land;true;mountain;2
 13513;239;197;129;land;true;plains;5
 13514;171;36;118;land;false;plains;5
