@@ -115,6 +115,10 @@ set_popularities = {
 
 add_ideas = {
 AST_climate_disaster
+ASU_Corporate_Oligarch_Rule_Idea
+ASU_Shadow_Ruled_Governor_Idea
+ASU_AnCap_Alliance_Idea
+ASU_High_Pollution_Idea
 }
 
 create_country_leader = {

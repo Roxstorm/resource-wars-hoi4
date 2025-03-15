@@ -118,11 +118,12 @@ AST_climate_disaster
 }
 
 create_country_leader = {
-	name = "Jackson Hughes"
-	desc = ""
-	picture = gfx/leaders/AST/Portrait_Australia_Jackson_Hughes.png
-	expire = "1965.1.1"
+	name = "Yarran Marrins"
+	desc = "Yarran Marrin is a visionary and fearless leader, who united the Wilyakali people and rallied them to reclaim their ancestral lands and secure their faith its land for future generations."
+	picture = gfx/leaders/TAR/Reserve_Aboriginal.png
+	expire = "2060.1.1"
 	ideology = Neo_Nativism
 	traits = {
+		warrior_code
 	}
 }

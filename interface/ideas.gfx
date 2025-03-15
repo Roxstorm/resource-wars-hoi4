@@ -122,10 +122,28 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/China1_resource_crisis-771849.dds"
 	}
 
+	## ASU ##
+	SpriteType = { 
+		name = "GFX_idea_CorporateOligarchyRule"
+		texturefile = "gfx/interface/ideas/Idea_CorporateOligarchyRule.dds"
+	}	
+
+	SpriteType = { 
+		name = "GFX_idea_ASU_Shadow_Ruled_Governor_Idea"
+		texturefile = "gfx/interface/ideas/ASU_Shadow_Ruled_Governor_Idea.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_idea_ASU_AncapAlliance_Idea"
+		texturefile = "gfx/interface/ideas/ASU_AncapAlliance_Idea.dds"
+	}	
+	SpriteType = { 
+		name = "GFX_idea_ASU_HighPollution_Idea"
+		texturefile = "gfx/interface/ideas/ASU_HighPollution_Idea.dds"
+	}
+
 	### MOLDOVA ###
 	spriteType = {
 		name = "GFX_idea_MOL_legacy_of_lenins_revolution"
 		texturefile = "gfx/interface/ideas/MOL_legacy_of_lenins_revolution.dds"
 	}
-
 }

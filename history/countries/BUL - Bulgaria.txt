@@ -47,14 +47,13 @@ recruit_character = BUL_teodor_atanasov
 add_ideas = {
 	BUL_BKP_idea
 	BUL_agricultural_crisis_1_idea
-	BUL_mass_purges_idea
 }
 
 set_country_flag = BUL_democratic_rebelions_mechanics_cf
 
 set_variable = {
 	var = BUL_drsg_sofia_region_vv
-	value = 8
+	value = 6
 }
 set_variable = {
 	var = BUL_drsg_burgas_region_vv
@@ -74,7 +73,7 @@ set_variable = {
 }
 set_variable = {
 	var = BUL_drsg_vidin_region_vv
-	value = 2
+	value = 4
 }
 
 set_politics = {

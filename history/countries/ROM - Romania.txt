@@ -45,7 +45,6 @@ set_war_support = 0.6
 recruit_character = ROM_military_command_of_afprr
 recruit_character = ROM_corvid_petrikov
 recruit_character = ROM_cristofor_ionescu
-recruit_character = ROM_alexandru_popescu
 
 add_ideas = {
 	ROM_petrikovshchina_idea
