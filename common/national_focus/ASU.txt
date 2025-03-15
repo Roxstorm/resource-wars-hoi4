@@ -1,0 +1,105 @@
+﻿focus_tree = {
+	id = ASU
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ASU
+		}
+	}
+	
+	continuous_focus_position = { x = 50 y = 1600 }
+	default = no
+	
+	
+	focus = {
+		id = ASU_Shareholder_Meeting
+		icon = ASU_Shareholder_Meeting
+		cost = 2
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		x = 10
+		y = 1
+		completion_reward = {
+			ASU = {
+			country_event = ASU_events.1
+			}
+		}
+	}
+
+	focus = {
+		id = ASU_No_Confidence_Vote
+		icon = ASU_No_Confidence_Vote
+		cost = 2
+		available_if_capitulated = no
+		mutually_exclusive = { focus = ASU_Shareholders_No_Agreement }
+		prerequisite = {
+			focus = ASU_Shareholder_Meeting
+		}
+		ai_will_do = {
+			factor = 1
+		}
+		x = 6
+		y = 2
+		completion_reward = {
+			country_event = ASU_events.2
+		}
+	}
+
+	focus = {
+		id = ASU_Shareholders_No_Agreement
+		icon = ASU_Shareholders_No_Agreement
+		cost = 2
+		available_if_capitulated = no
+		mutually_exclusive = { focus = ASU_No_Confidence_Vote }
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = ASU_Shareholder_Meeting
+		}
+		x = 15
+		y = 2
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = ASU_Push_NAP
+		icon = ASU_Shareholders_No_Agreement
+		cost = 2
+		available_if_capitulated = no
+		mutually_exclusive = { focus = ASU_Push_AP }
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = ASU_No_Confidence_Vote
+		}
+		x = 3
+		y = 3
+		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ASU_Push_AP
+		icon = ASU_Shareholders_No_Agreement
+		cost = 2
+		available_if_capitulated = no
+		mutually_exclusive = { focus = ASU_Push_NAP }
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = ASU_No_Confidence_Vote
+		}
+		x = 9
+		y = 3
+		completion_reward = {
+		}
+	}
+}
