@@ -75,6 +75,7 @@ country_event = {
 		}
 		MAC = {
 			transfer_state = 106
+			transfer_state = 803
 		}
 	}
 }

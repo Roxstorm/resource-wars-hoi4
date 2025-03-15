@@ -402,8 +402,8 @@ ICE = {
 }
 
 UKR = {
-	color = rgb { 0  80  230 }
-	color_ui = rgb { 0  80  230 }	
+	color = rgb { 50 96 139 }
+	color_ui = rgb { 50 96 139 }	
 }
 
 AZR = {
@@ -992,4 +992,8 @@ UAR = {
 EUC = {
 	color = rgb { 46 74 198 }
 	color_ui = rgb { 46 74 198 }
+}
+UPA = {
+	color = rgb { 96 31 31 }
+	color_ui = rgb { 96 31 31 }
 }

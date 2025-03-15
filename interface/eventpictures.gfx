@@ -3589,6 +3589,13 @@ spriteTypes = {
 		name = "GFX_news_event_australian_bushfire1"
 		texturefile = "gfx/event_pictures/GFX_news_event_australian_bushfire1.dds"
 	}
+	############
+	### USSR ###
+	############
+	spriteType = {
+		name = "GFX_news_event_soviet_collapse_news_1"
+		texturefile = "gfx/event_pictures/GFX_news_event_soviet_collapse_news_1.dds"
+	}
 }
 
 

@@ -1,4 +1,18 @@
 characters={
+	MOL_radu_vasilievich = { # Józef Unszlicht
+		name="Radu Vasilievich"
+		portraits={
+			civilian={
+				large="gfx/leaders/MOL/MOL_radu_vasilievich.png"
+			}
+		}
+		country_leader={
+			ideology = National_Communism
+			traits={ }
+			expire="2121.1.1.1"
+			id=-1
+		}
+	}
 	MOL_acas={
 		advisor={
 			slot = high_command

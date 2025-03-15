@@ -3,6 +3,7 @@ state={
 	name="STATE_1094"
 
 	history={
+		set_state_flag = south_ukrainian_rebelions_sf
 		victory_points = {
 			721 1 
 		}

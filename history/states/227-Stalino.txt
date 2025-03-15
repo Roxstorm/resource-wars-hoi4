@@ -4,6 +4,7 @@ state={
 	name="STATE_227"
 
 	history={
+		set_state_flag = south_ukrainian_rebelions_sf
 		owner = SOV
 		buildings = {
 			infrastructure = 3

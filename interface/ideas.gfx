@@ -122,4 +122,10 @@ spriteTypes = {
 		texturefile = "gfx/interface/ideas/China1_resource_crisis-771849.dds"
 	}
 
+	### MOLDOVA ###
+	spriteType = {
+		name = "GFX_idea_MOL_legacy_of_lenins_revolution"
+		texturefile = "gfx/interface/ideas/MOL_legacy_of_lenins_revolution.dds"
+	}
+
 }

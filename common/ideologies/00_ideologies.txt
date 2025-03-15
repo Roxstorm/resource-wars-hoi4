@@ -184,6 +184,10 @@ ideologies = {
 			Neo_Legionarism = {
 				color = { 17 137 89 }
 			}
+
+			Neo_Nazism = {
+				color = { 68 52 52 }
+			}
 		}
 
 		dynamic_faction_names = {

@@ -80,6 +80,9 @@
  CRO_democratic_party:0 "HDZ"
  CRO_democratic_party_long:0 "Hrvatska Demokratska Zajednica"
 
+ UPA_fascism_party:0 "UPA"
+ UPA_fascism_party_long:0 "Ukrainska Povstanska Armiia"
+
  CAN_neutrality_party:0 "CPC"
  CAN_neutrality_party_long:0 "Conservative Party of Canada"
  CAN_communism_party:0 "NDP"
