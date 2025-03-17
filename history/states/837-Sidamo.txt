@@ -7,23 +7,6 @@ state={
 	}
 
 	history={
-		set_variable = {
-			ETH_state_development_production_speed = -0.3
-
-		}
-		set_variable = {
-			ETH_state_development_local_building_slots_factor = -0.3
-
-		}
-		add_dynamic_modifier = {
-			modifier = ETH_state_development_dynamic_modifier
-
-		}
-		add_dynamic_modifier = {
-			modifier = ETH_state_decentralization_dynamic_modifier
-			scope = ETH
-
-		}
 		buildings = {
 
 		}
@@ -39,7 +22,6 @@ state={
 		owner = SID
 		add_core_of = ETH
 		add_core_of = SID
-		add_core_of = ORO
 
 	}
 

@@ -20,3 +20,7 @@ set_popularities = {
 	communism = 65
 	neutrality = 10
 }
+add_ideas = {
+	TIG_the_real_ones
+	TIG_the_deal
+}

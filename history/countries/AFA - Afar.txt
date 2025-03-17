@@ -30,3 +30,7 @@ set_popularities = {
 	communism = 5
 	neutrality = 75
 }
+add_ideas = {
+AFA_brutal_devastation
+AFA_nationalist_fervour
+}

@@ -21,3 +21,8 @@ set_popularities = {
 	communism = 55
 	neutrality = 5
 }
+add_ideas = {
+	ERI_the_sea
+	ERI_the_deal
+	ERI_independence
+}
