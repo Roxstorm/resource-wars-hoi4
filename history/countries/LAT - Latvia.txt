@@ -22,6 +22,7 @@ if = {
 add_ideas = {
 	limited_conscription
 	LAT_latvian_ss_ultranationalists_idea
+	LAT_us_military_equipment_idea
 }
 
 recruit_character = LAT_valtins_krauze

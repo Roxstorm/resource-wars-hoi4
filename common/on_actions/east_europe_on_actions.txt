@@ -100,4 +100,29 @@ on_actions = {
 			}
 		}
 	}
+	on_state_control_changed = {
+		effect = {
+			if = {
+				limit = {
+					FROM.FROM = { 
+						OR = {
+							state = 808 
+							state = 810
+							state = 12
+						}
+					}
+					has_global_flag = EST_estonian_soviet_war_ended
+					12 = { is_demilitarized_zone = yes }
+					808 = { is_demilitarized_zone = yes }
+					810 = { is_demilitarized_zone = yes }
+				}	
+				12 = { set_demilitarized_zone = no }
+				808 = { set_demilitarized_zone = no }
+				810 = { set_demilitarized_zone = no }
+				else = {
+					# do nothing
+				}
+			}
+		}
+	}
 }
