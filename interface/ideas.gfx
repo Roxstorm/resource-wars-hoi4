@@ -146,4 +146,10 @@ spriteTypes = {
 		name = "GFX_idea_MOL_legacy_of_lenins_revolution"
 		texturefile = "gfx/interface/ideas/MOL_legacy_of_lenins_revolution.dds"
 	}
+
+	### LATVIA ###
+	spriteType = {
+		name = "GFX_idea_LAT_latvian_ss_ultranationalists_idea"
+		texturefile = "gfx/interface/ideas/LAT_latvian_ss_ultranationalists_idea.dds"
+	}
 }
