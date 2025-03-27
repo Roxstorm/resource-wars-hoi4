@@ -27,9 +27,6 @@
         y = 4
         cost = 10
         prerequisite = { focus = address_the_resource_shortage }
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
         id = prioritize_the_critical_industries
@@ -38,9 +35,6 @@
         y = 5
         cost = 10
         prerequisite = { focus = fuel_rationing }
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
         id = alternative_fuel_sources
@@ -49,9 +43,6 @@
         y = 6
         cost = 10
         prerequisite = { focus = prioritize_the_critical_industries }
-        available = {
-            date > 2052.4.1.1
-        }
 		mutually_exclusive = {
 			focus = stick_to_fossil_fuels
 		}
@@ -83,9 +74,6 @@
         y = 6
         cost = 10
         prerequisite = { focus = prioritize_the_critical_industries }
-        available = {
-            date > 2052.4.1.1
-        }
 		mutually_exclusive = {
 			focus = alternative_fuel_sources
 		}
@@ -97,9 +85,6 @@
         y = 7
         cost = 10
         prerequisite = { focus = stick_to_fossil_fuels }
-        available = {
-            date > 2052.4.1.1
-        }
 		mutually_exclusive = {
 			focus = take_the_oil_from_them
 		}
@@ -111,9 +96,6 @@
         y = 7
         cost = 10
         prerequisite = { focus = stick_to_fossil_fuels }
-        available = {
-            date > 2052.4.1.1
-        }
 		mutually_exclusive = {
 			focus = cooperate_with_the_arabs
 		}
@@ -125,9 +107,6 @@
         y = 8
         cost = 10
         prerequisite = { focus = cooperate_with_the_arabs }
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
         id = support_the_european_cause
@@ -136,9 +115,6 @@
         y = 8
         cost = 10
         prerequisite = { focus = take_the_oil_from_them }
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
         id = our_place_in_the_world
@@ -146,9 +122,6 @@
         x = 19
         y = 3
         cost = 10
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
         id = approachement_with_the_west
@@ -157,9 +130,6 @@
         y = 4
         cost = 10
         prerequisite = { focus = our_place_in_the_world }
-        available = {
-            date > 2052.4.1.1
-        }
 		mutually_exclusive = {
 			focus = a_policy_of_neutrality
 			focus = embrace_communist_ideas
@@ -172,9 +142,6 @@
         y = 4
         cost = 10
         prerequisite = { focus = our_place_in_the_world }
-        available = {
-            date > 2052.4.1.1
-        }
 		mutually_exclusive = {
 			focus = embrace_communist_ideas
 		}
@@ -189,9 +156,6 @@
         y = 5
         cost = 10
         prerequisite = { focus = embrace_communist_ideas }
-        available = {
-            date > 2052.4.1.1
-        }
 		mutually_exclusive = {
 			focus = approach_china
 		}
@@ -203,9 +167,6 @@
         y = 6
         cost = 10
         prerequisite = { focus = the_russian_bear }
-        available = {
-            date > 2052.4.1.1
-        }
     }
 	focus = {
         id = integrate_ourselves_into_the_wider_union
@@ -214,9 +175,6 @@
         y = 7
         cost = 10
         prerequisite = { focus = meet_with_kozlov }
-        available = {
-            date > 2052.4.1.1
-        }
     }
 	focus = {
         id = submit_to_moscow
@@ -225,9 +183,6 @@
         y = 8
         cost = 10
         prerequisite = { focus = integrate_ourselves_into_the_wider_union }
-        available = {
-            date > 2052.4.1.1
-        }
     }
 	focus = {
         id = approach_china
@@ -236,9 +191,6 @@
         y = 5
         cost = 10
         prerequisite = { focus = embrace_communist_ideas }
-        available = {
-            date > 2052.4.1.1
-        }
 		mutually_exclusive = {
 			focus = the_russian_bear
 		}
@@ -250,9 +202,6 @@
         y = 6
         cost = 10
         prerequisite = { focus = approach_china }
-        available = {
-            date > 2052.4.1.1
-        }
     }
 	focus = {
         id = fuel_for_protection
@@ -261,9 +210,6 @@
         y = 7
         cost = 10
         prerequisite = { focus = negociate_with_the_chairman}
-        available = {
-            date > 2052.4.1.1
-        }
     }
 	focus = {
         id = red_sun_in_the_sky
@@ -272,9 +218,6 @@
         y = 8
         cost = 10
         prerequisite = { focus = fuel_for_protection }
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
         id = embrace_communist_ideas
@@ -283,9 +226,6 @@
         y = 4
         cost = 10
         prerequisite = { focus = our_place_in_the_world }
-        available = {
-            date > 2052.4.1.1
-        }
 		mutually_exclusive = {
 			focus = a_policy_of_neutrality 
 			focus = approachement_with_the_west
@@ -297,9 +237,6 @@
         x = 18
         y = 5
         cost = 10
-        available = {
-            date > 2052.4.1.1
-        }
 		prerequisite = {
 			focus = approachement_with_the_west
 		}
@@ -314,9 +251,6 @@
         y = 5
         cost = 10
         prerequisite = { focus = approachement_with_the_west }
-        available = {
-            date > 2052.4.1.1
-        }
 		mutually_exclusive = {
 			focus = the_fractured_commonwealth
 		}
@@ -328,9 +262,6 @@
         y = 6
         cost = 10
         prerequisite = { focus = closer_ties_with_washington }
-        available = {
-            date > 2052.4.1.1
-        }
     }
 	focus = {
         id = a_toast_to_freedom
@@ -339,9 +270,6 @@
         y = 7
         cost = 10
         prerequisite = { focus = a_meeting_in_the_white_house }
-        available = {
-            date > 2052.4.1.1
-        }
     }
 	focus = {
         id = join_nato 
@@ -350,9 +278,6 @@
         y = 8
         cost = 10
         prerequisite = { focus = a_toast_to_freedom }
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
         id = a_proposition_to_brussels
@@ -361,9 +286,6 @@
         y = 6
         cost = 10
         prerequisite = { focus = the_fractured_commonwealth }
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
         id = embrace_ec_ideals
@@ -372,9 +294,6 @@
         y = 7
         cost = 10
         prerequisite = { focus = a_proposition_to_brussels }
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
         id = adhere_to_the_commonwealth
@@ -383,9 +302,6 @@
         y = 8
         cost = 10
         prerequisite = { focus = embrace_ec_ideals }
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
         id = the_capabilities_of_our_armed_forces
@@ -393,9 +309,6 @@
         x = 27
         y = 4
         cost = 10
-        available = {
-            date > 2052.4.1.1
-        }
     }
 	focus = {
         id = modernize_our_tank_fleet
@@ -403,9 +316,6 @@
         x = 27
         y = 5
         cost = 10
-        available = {
-            date > 2052.4.1.1
-        }
 		prerequisite = {
 			focus = the_capabilities_of_our_armed_forces
 		}
@@ -417,9 +327,6 @@
         y = 5
         cost = 10
         prerequisite = { focus = the_capabilities_of_our_armed_forces }
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
         id = a_new_rifle_for_the_army
@@ -428,9 +335,6 @@
         y = 6
         cost = 10
         prerequisite = { focus = boots_on_the_ground }
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
         id = army_branch_specialization
@@ -439,9 +343,6 @@
         y = 7
         cost = 10
         prerequisite = { focus = a_new_rifle_for_the_army }
-        available = {
-            date > 2052.4.1.1
-        }
     }
 	focus = {
         id = the_queen_of_the_battle
@@ -450,9 +351,6 @@
         y = 5
         cost = 10
         prerequisite = { focus = the_capabilities_of_our_armed_forces }
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
         id = increase_artillery_production
@@ -461,9 +359,6 @@
         y = 6
         cost = 10
         prerequisite = { focus = the_queen_of_the_battle }
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
         id = a_bigger_gun
@@ -472,9 +367,6 @@
         y = 7
         cost = 10
         prerequisite = { focus = increase_artillery_production }
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
         id = purchase_foreign_tanks
@@ -483,9 +375,6 @@
         y = 6
         cost = 10
         prerequisite = { focus = modernize_our_tank_fleet }
-        available = {
-            date > 2052.4.1.1
-        }
     }
 	focus = {
         id = build_our_own
@@ -494,9 +383,6 @@
         y = 6
         cost = 10
         prerequisite = { focus = modernize_our_tank_fleet }
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
         id = negotiate_with_the_foreign_powers
@@ -505,9 +391,6 @@
         y = 7
         cost = 10
         prerequisite = { focus = purchase_foreign_tanks }
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
         id = invest_in_the_design_bureaus
@@ -516,9 +399,6 @@
         y = 7
         cost = 10
         prerequisite = { focus = build_our_own }
-        available = {
-            date > 2052.4.1.1
-        }
     }
 	focus = {
 		id = how_shall_we_fight
@@ -543,9 +423,6 @@
         y = 9
         cost = 10
         prerequisite = { focus = how_shall_we_fight }
-        available = {
-            date > 2052.4.1.1
-        }
 		mutually_exclusive = {
 			focus = focus_on_firepower
 			focus = focus_on_logistics
@@ -559,9 +436,6 @@
         y = 9
         cost = 10
         prerequisite = { focus = how_shall_we_fight }
-        available = {
-            date > 2052.4.1.1
-        }
 		mutually_exclusive = {
 			focus = focus_on_speed
 			focus = focus_on_logistics
@@ -575,9 +449,6 @@
         y = 9
         cost = 10
         prerequisite = { focus = how_shall_we_fight }
-        available = {
-            date > 2052.4.1.1
-        }
 		mutually_exclusive = {
 			focus = focus_on_speed
 			focus = focus_on_firepower
@@ -591,9 +462,6 @@
         y = 9
         cost = 10
         prerequisite = { focus = how_shall_we_fight }
-        available = {
-            date > 2052.4.1.1
-        }
 		mutually_exclusive = {
 			focus = focus_on_logistics
 			focus = focus_on_firepower
@@ -601,122 +469,456 @@
 		}
     }
     focus = {
-        id = the_queen_of_the_seas
+        id = our_airforce
         icon = GFX_goal_unknown
         x = 37
         y = 3
         cost = 10
-        available = {
-            date > 2052.4.1.1
-        }
     }
     focus = {
-        id = escort_carriers
+        id = catch_up_in_research
         icon = GFX_goal_unknown
-        x = 37
+        x = 39
         y = 5
         cost = 10
-        prerequisite = { focus = the_queen_of_the_seas }
-        available = {
-            date > 2052.4.1.1
+        prerequisite = { focus = the_jet_age }
+    }
+    focus = {
+        id = fusion_technology
+        icon = GFX_goal_unknown
+        x = 39
+        y = 6
+        cost = 10
+        prerequisite = { focus = catch_up_in_research }
+    }
+    focus = {
+        id = purchase_foreign_aircraft
+        icon = GFX_goal_unknown
+        x = 35
+        y = 5
+        cost = 10
+        prerequisite = { focus = focus_on_attack_aircraft focus = focus_on_bombers focus = focus_on_fighters }
+        mutually_exclusive = {
+            focus = invest_in_domestic_designs
         }
     }
     focus = {
-        id = super_carriers
+        id = invest_in_domestic_designs
         icon = GFX_goal_unknown
-        x = 37
-        y = 7
+        x = 33
+        y = 5
         cost = 10
-        prerequisite = { focus = escort_carriers }
-        available = {
-            date > 2052.4.1.1
-        }
-    }
-    focus = {
-        id = overwhelm_them_with_numbers
-        icon = GFX_goal_unknown
-        x = 37
-        y = 9
-        cost = 10
-        prerequisite = { focus = super_carriers }
-        available = {
-            date > 2052.4.1.1
-        }
-    }
-    focus = {
-        id = like_a_hornets_nest
-        icon = GFX_goal_unknown
-        x = 37
-        y = 11
-        cost = 10
-        prerequisite = { focus = overwhelm_them_with_numbers }
-        available = {
-            date > 2052.4.1.1
+        prerequisite = { focus = focus_on_attack_aircraft focus = focus_on_bombers focus = focus_on_fighters }
+        mutually_exclusive = {
+            focus = purchase_foreign_aircraft
         }
     }
     focus = {
         id = the_jet_age
         icon = GFX_goal_unknown
         x = 39
-        y = 3
+        y = 4
         cost = 10
-        available = {
-            date > 2052.4.1.1
+        prerequisite = {
+            focus = our_airforce
         }
     }
     focus = {
         id = focus_on_fighters
         icon = GFX_goal_unknown
-        x = 39
-        y = 5
+        x = 34
+        y = 4
         cost = 10
-        prerequisite = { focus = the_jet_age }
-        available = {
-            date > 2052.4.1.1
+        prerequisite = { focus = our_airforce }
+        mutually_exclusive = {
+            focus = focus_on_bombers
+            focus = focus_on_attack_aircraft
         }
     }
     focus = {
         id = focus_on_bombers
         icon = GFX_goal_unknown
-        x = 39
-        y = 7
+        x = 32
+        y = 4
         cost = 10
-        prerequisite = { focus = the_jet_age }
-        available = {
-            date > 2052.4.1.1
+        prerequisite = { focus = our_airforce }
+        mutually_exclusive = {
+            focus = focus_on_fighters
+            focus = focus_on_attack_aircraft
         }
     }
     focus = {
         id = focus_on_attack_aircraft
         icon = GFX_goal_unknown
-        x = 39
-        y = 9
+        x = 36
+        y = 4
         cost = 10
-        prerequisite = { focus = the_jet_age }
-        available = {
-            date > 2052.4.1.1
+        prerequisite = { focus = our_airforce }
+        mutually_exclusive = {
+            focus = focus_on_fighters
+            focus = focus_on_bombers
         }
     }
     focus = {
         id = the_ultimate_plane
         icon = GFX_goal_unknown
-        x = 39
-        y = 11
+        x = 34
+        y = 7
         cost = 10
-        prerequisite = { focus = focus_on_fighters focus = focus_on_bombers focus = focus_on_attack_aircraft }
-        available = {
-            date > 2052.4.1.1
-        }
+        prerequisite = { focus = invest_in_domestic_designs focus = purchase_foreign_aircraft }
     }
     focus = {
         id = the_ultimate_engine
         icon = GFX_goal_unknown
         x = 39
+        y = 7
+        cost = 10
+        prerequisite = { focus = fusion_technology }
+    }
+
+    focus = {
+        id = build_new_production_facilities
+        icon = GFX_goal_unknown
+        x = 37
+        y = 5
+        cost = 10
+        prerequisite = {
+            focus = our_airforce
+        }
+    }
+
+    focus = {
+        id = expand_the_industrial_complex
+        icon = GFX_goal_unknown
+        x = 37 
+        y = 6
+        cost = 10
+        prerequisite = {
+            focus = build_new_production_facilities
+        }
+    }
+
+    focus = {
+        id = the_airforce_of_the_future 
+        icon = GFX_goal_unknown
+        x= 36
+        y = 8
+        cost = 10
+        prerequisite = {
+            focus = the_ultimate_engine
+        }
+        prerequisite = {
+            focus = the_ultimate_plane
+        }
+    }
+
+    focus = {
+        id = the_state_of_the_economy
+        icon = GFX_goal_unknown
+        x = 16
+        y = 10
+        cost = 10
+    }
+
+    focus = {
+        id = invest_in_the_civilian_sector
+        icon = GFX_goal_unknown
+        x = 16
+        y = 11
+        cost = 10
+        prerequisite = {
+            focus = the_state_of_the_economy
+        }
+    }
+
+    focus = {
+        id = create_new_jobs_for_the_people
+        icon = GFX_goal_unknown
+        x = 16
+        y = 12
+        cost = 10
+        prerequisite = {
+            focus = invest_in_the_civilian_sector    
+        }
+    }
+
+    focus = {
+        id = attract_foreign_investors
+        icon = GFX_goal_unknown
+        x = 16
         y = 13
         cost = 10
-        prerequisite = { focus = the_ultimate_plane }
+        prerequisite = {
+            focus = create_new_jobs_for_the_people
+        }
+    }
+
+    focus = {
+        id = a_truly_modern_economy
+        icon = GFX_goal_unknown
+        x = 16
+        y = 14
+        cost = 10
+        prerequisite = {
+            focus = attract_foreign_investors
+        }
+    }
+
+    focus = {
+        id = invest_in_the_defense_industry
+        icon = GFX_goal_unknown
+        x = 18
+        y = 12
+        cost = 10
+        prerequisite = {
+            focus = invest_in_the_civilian_sector
+        }
+    }
+
+    focus = {
+        id = expand_the_military_industrial_complex
+        icon = GFX_goal_unknown
+        x = 18
+        y = 13
+        cost = 10
+        prerequisite = {
+            focus = invest_in_the_defense_industry
+        }
+    }
+
+    focus = {
+        id = invest_in_automation
+        icon = GFX_goal_unknown
+        x = 18
+        y = 14
+        cost = 10
+        prerequisite = {
+            focus = expand_the_military_industrial_complex
+        }
+    }
+
+    focus = {
+        id = a_modern_industrial_complex_fit_for_a_modern_army
+        icon = GFX_goal_unknown
+        x = 18
+        y = 15
+        cost = 10
+        prerequisite = {
+            focus = invest_in_automation
+        }
+    }
+
+    focus = {
+        id = construct_new_roads
+        icon = GFX_goal_unknown
+        x = 14
+        y = 13
+        cost = 10
+        prerequisite = {
+            focus = create_new_jobs_for_the_people
+        }
+    }
+
+    focus = {
+        id = invest_in_nation_wide_infrastructure_projects
+        icon = GFX_goal_unknown
+        x = 14
+        y = 14
+        cost = 10
+        prerequisite = {
+            focus = construct_new_roads
+        }
+    }
+
+    focus = {
+        id = rule_the_seas
+        icon = GFX_goal_unknown
+        x = 25
+        y = 11
+        cost = 10
         available = {
-            date > 2052.4.1.1
+			any_state = {
+				is_controlled_by = ROOT
+				is_coastal = yes
+		    }
+        }
+    }
+
+    focus = {
+        id = the_bread_and_butter_of_the_navy
+        icon = GFX_goal_unknown
+        x = 25
+        y = 12
+        cost = 10
+        prerequisite = {
+            focus = rule_the_seas
+        }
+    }
+
+    focus = {
+        id = universal_production_facilities
+        icon = GFX_goal_unknown
+        x = 25
+        y = 13
+        cost = 10
+        prerequisite = {
+            focus = the_bread_and_butter_of_the_navy
+        }
+    }
+
+    focus = {
+        id = modernize_the_destroyer_fleet
+        icon = GFX_goal_unknown
+        x = 25
+        y = 14
+        cost = 10
+        prerequisite = {
+            focus = universal_production_facilities
+        }
+    }
+
+    focus = {
+        id = modernize_cruiser_fleet
+        icon = GFX_goal_unknown
+        x = 25
+        y = 15
+        cost = 10
+        prerequisite = {
+            focus = modernize_the_destroyer_fleet
+        }
+    }
+
+    focus = {
+        id = new_weapons_systems
+        icon = GFX_goal_unknown
+        x = 25
+        y = 16
+        cost = 10
+        prerequisite = {
+            focus = modernize_cruiser_fleet
+        }
+    }
+
+    focus = {
+        id = the_silent_hunters
+        icon = GFX_goal_unknown
+        x = 23
+        y = 13
+        cost = 10
+        prerequisite = {
+            focus = rule_the_seas
+        }
+    }
+
+    focus = {
+        id = expand_submarine_production_facilities
+        icon = GFX_goal_unknown
+        x = 23
+        y = 14
+        cost = 10
+        prerequisite = {
+            focus = the_silent_hunters
+        }
+    }
+
+    focus = {
+        id = support_local_manufacturers
+        icon = GFX_goal_unknown
+        x = 23
+        y = 15
+        cost = 10
+        prerequisite = {
+            focus = expand_submarine_production_facilities
+        }
+    }
+
+    focus = {
+        id = the_perfect_submarine
+        icon = GFX_goal_unknown
+        x = 23
+        y = 16
+        cost = 10
+        prerequisite = {
+            focus = support_local_manufacturers
+        }
+    }
+
+    focus = {
+        id = the_queen_of_the_seas
+        icon = GFX_goal_unknown
+        x = 27
+        y = 14
+        cost = 10
+        prerequisite = {
+            focus = rule_the_seas
+        }
+    }
+
+    focus = {
+        id = escort_carriers
+        icon = GFX_goal_unknown
+        x = 27
+        y = 15
+        cost = 10
+        prerequisite = {
+            focus = the_queen_of_the_seas
+        }
+        mutually_exclusive = {
+            focus = super_carriers
+        }
+    }
+
+    focus = {
+        id = overwhelm_them_with_numbers
+        icon = GFX_goal_unknown
+        x = 27
+        y = 16
+        cost = 10
+        prerequisite = {
+            focus = escort_carriers
+        }
+    }
+
+    focus = {
+        id = super_carriers
+        icon = GFX_goal_unknown
+        x = 29
+        y = 15
+        cost = 10
+        prerequisite = {
+            focus = the_queen_of_the_seas
+        }
+        mutually_exclusive = {
+            focus = escort_carriers
+        }
+    }
+
+    focus = {
+        id = like_a_hornets_nest
+        icon = GFX_goal_unknown
+        x = 29
+        y = 16
+        cost = 10   
+        prerequisite = {
+            focus = super_carriers
+        }
+    }
+
+    focus = {
+        id = the_navy_of_the_future
+        icon = GFX_goal_unknown
+        x = 25
+        y = 17
+        cost = 10
+        prerequisite = {
+            focus = the_perfect_submarine
+        }
+        prerequisite = {
+            focus = new_weapons_systems
+        }
+        prerequisite = {
+            focus = overwhelm_them_with_numbers
+            focus = like_a_hornets_nest
         }
     }
 }
