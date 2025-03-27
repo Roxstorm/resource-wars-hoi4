@@ -19,6 +19,11 @@
         available = {
             date > 2052.4.1.1
         }
+        completion_reward = {
+            local_resources_factor = 0.1
+            min_export = -0.2
+            production_lack_of_resource_factor = -0.15
+        }
     }
     focus = {
         id = fuel_rationing
@@ -27,6 +32,9 @@
         y = 4
         cost = 10
         prerequisite = { focus = address_the_resource_shortage }
+        completion_reward = {
+            fuel_cost = 1
+        }
     }
     focus = {
         id = prioritize_the_critical_industries
@@ -35,6 +43,11 @@
         y = 5
         cost = 10
         prerequisite = { focus = fuel_rationing }
+        completion_reward = {
+            consumer_goods_expected_value = -0.1
+            production_speed_synthetic_refinery_factor = 0.1
+            prodcution_speed_infrastructure_facture = 0.05
+        }
     }
     focus = {
         id = alternative_fuel_sources
@@ -77,6 +90,11 @@
 		mutually_exclusive = {
 			focus = alternative_fuel_sources
 		}
+        completion_reward = {
+            fuel_gain_factor = 0.2
+            fuel_cost = 50
+            #someone please add synthetic refinery research bonuses cuz idk how to do that 
+        }
     }
     focus = {
         id = cooperate_with_the_arabs
@@ -88,6 +106,9 @@
 		mutually_exclusive = {
 			focus = take_the_oil_from_them
 		}
+        completion_reward = {
+            
+        }
     }
     focus = {
         id = take_the_oil_from_them
