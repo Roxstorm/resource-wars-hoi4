@@ -44,6 +44,11 @@ bookmarks = {
 				home_of_the_free
 				great_depression
 				undisturbed_isolation
+				fusion_technology_funding
+				robot_factory_workers
+				oil_shortages
+				effects_of_the_new_plague
+				industrial_union_strikes
 			}
 			focuses = {
 				USA_war_plan_black
@@ -2239,6 +2244,7 @@ bookmarks = {
 		effect = {
 			randomize_weather = 22345 # <- Obligatory in every bookmark !
 			#123 = { rain_light = yes }
+			}
 		}
 	}
 }

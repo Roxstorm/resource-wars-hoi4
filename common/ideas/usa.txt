@@ -102,5 +102,57 @@ ideas = {
 				industrial_capacity_factory = -0.05
 			}
 		}
+
+		industrial_union_strikes = {
+			picture = GFX_goal_unknown
+
+			removal_cost = -1
+
+			modifier = {
+				production_speed_buildings_factor = -0.5
+			}
+		}
+
+		effects_of_the_new_plague = {
+			picture = GFX_goal_unknown
+
+			removal_cost = -1
+
+			modifier = {
+				conscription_factor = -0.02
+				monthly_population = -0.5
+			}
+		}
+
+		oil_shortages = {
+			picture = GFX_goal_unknown
+
+			removal_cost = -1
+
+			modifier = {
+				fuel_gain_factor = -0.9 #just what the file says cant blame me
+			}
+		}
+
+		robot_factory_workers = {
+			picture = GFX_goal_unknown
+
+			removal_cost = -1
+
+			modifier = {
+				military_industrial_organization_task_capacity = 5
+			}
+		}
+
+		fusion_technology_funding = {
+			picture = GFX_goal_unknown
+
+			removal_cost = -1
+
+			modifier = {
+				research_speed_factor = 0.02
+				consumer_goods_factor = 0.15
+			}
+		}
 	}
 }
