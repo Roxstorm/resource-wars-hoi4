@@ -96,6 +96,11 @@ country_event = {
 			MOL = {
 				transfer_state = 78
 			}
+			# next country
+			country_event = {
+				id = soviet_collapse.5
+				days = 7
+			}
 		}
 	}
 
@@ -103,14 +108,45 @@ country_event = {
 		name = soviet_collapse.4.a
 		UKR = { change_tag_from = SOV }
 	}
-
 	option = {
 		name = soviet_collapse.4.b
 		UPA = { change_tag_from = SOV }
 	}
-
 	option = {
 		name = soviet_collapse.4.c
+		MOL = { change_tag_from = SOV }
+	}
+	option = {
+		name = soviet_collapse.4.d
+	}
+}
+# latvia leaved USSR
+country_event = {
+	id = soviet_collapse.5
+	title = soviet_collapse.5.t
+	desc = soviet_collapse.5.desc
+	picture = x
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			# Latvia going crraaaazyy
+			LAT = {
+				transfer_state = 810
+				transfer_state = 12
+				transfer_state = 808
+				transfer_state = 809
+				transfer_state = 190
+			}
+		}
+	}
+
+	option = {
+		name = soviet_collapse.5.a
+		LAT = { change_tag_from = SOV }
+	}
+	option = {
+		name = soviet_collapse.5.d
 	}
 }
 ### SCRIPT ###

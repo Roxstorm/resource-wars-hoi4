@@ -54,20 +54,21 @@ country_event = {
 				}
 			}
 			promote_character = ROM_military_command_of_afprr
-			news_event = {
-				id = romania_news.2
-				days = 1
-				hours = 6
-			}
 		}
 	}
 
 	option = {
 		name = romania_revolt.2.a
 		add_ideas = ROM_emergency_situation
+		remove_ideas = ROM_petrikovshchina_idea
 		add_popularity = {
 			ideology = democratic
 			popularity = 0.16
+		}
+		news_event = {
+			id = romania_news.2
+			days = 1
+			hours = 6
 		}
 	}
 }
@@ -92,11 +93,6 @@ country_event = {
 				set_global_flag = romanian_democratic_now_gf
 				leave_faction = yes
 				SOV = { end_puppet = ROM }
-				news_event = {
-					id = romania_news.1
-					days = 1
-					hours = 6
-				}
 			}
 		}
 	}
@@ -104,6 +100,11 @@ country_event = {
 	option = {
 		name = romania_revolt.3.a
 		remove_ideas = ROM_emergency_situation
+		news_event = {
+			id = romania_news.1
+			days = 1
+			hours = 6
+		}
 	}
 }
 # Event for USSR where they think about to kill Romania
@@ -166,21 +167,5 @@ news_event = {
 
 	option = {
 		name = romania_news.2.a
-	}
-}
-# Romanian Republic capitulated
-news_event = {
-	id = romania_news.3
-	title = romania_news.3.t
-	desc = romania_news.3.d
-	picture = x
-	fire_only_once = yes
-	is_triggered_only = yes
-
-	immediate = {
-	}
-
-	option = {
-		name = romania_news.3.a
 	}
 }

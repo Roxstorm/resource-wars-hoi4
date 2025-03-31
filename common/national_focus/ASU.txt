@@ -11,7 +11,7 @@
 	continuous_focus_position = { x = 50 y = 1600 }
 	default = no
 	
-	
+
 	focus = {
 		id = ASU_Shareholder_Meeting
 		icon = ASU_Shareholder_Meeting
@@ -100,6 +100,130 @@
 		x = 9
 		y = 3
 		completion_reward = {
+		}
+	}
+
+	focus = {
+		id = ASU_Roxby_Refuses
+		icon = ASU_Shareholders_No_Agreement
+		cost = 2
+		available_if_capitulated = no
+		mutually_exclusive = { focus =  }
+		ai_will_do = {
+			factor = 1
+		}
+		available = {
+			has_idea = my_idea
+		}
+		x = 25
+		y = 1
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = ASU_Violent_Response
+		icon = ASU_Shareholders_No_Agreement
+		cost = 2
+		available_if_capitulated = no
+		mutually_exclusive = { focus = ASU_Economic_Response }
+
+		ai_will_do = {
+			factor = 1
+		}
+		
+		prerequisite = {
+			focus = ASU_Roxby_Refuses
+		}
+		x = 22
+		y = 2
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = ASU_Economic_Response
+		icon = ASU_Shareholders_No_Agreement
+		cost = 2
+		x = 28
+		y = 2
+		available_if_capitulated = no
+		mutually_exclusive = { focus = ASU_Violent_Response }
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			focus = ASU_Roxby_Refuses
+		}
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = ASU_Begin_Boycott
+		icon = ASU_Shareholders_No_Agreement
+		cost = 2
+		x = 25
+		y = 3
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+			OR = {
+				focus = ASU_Violent_Response
+				focus = ASU_Economic_Response
+			}
+		}
+
+
+		completion_reward = {
+
+		}
+	}
+
+	focus = {
+		id = ASU_SeizeAssets
+		icon = ASU_Shareholders_No_Agreement
+		cost = 2
+		x = 24
+		y = 4
+		available_if_capitulated = no
+		ai_will_do = {
+			factor = 1
+		}
+		prerequisite = {
+
+			}
+		}
+		completion_reward = {
+
+		}
+	}
+	
+	focus = {
+		id = ASU_Blacklist
+		icon = ASU_Shareholders_No_Agreement
+		cost = 2
+		x = 24
+		y = 4
+		available_if_capitulated = no
+		mutually_exclusive = { focus =  }
+		ai_will_do = {
+			factor = 1
+		}
+
+		prerequisite = {
+			OR = {
+				focus = ASU_Violent_Response
+				focus = ASU_Economic_Response
+			}
+		}
+		completion_reward = {
+
 		}
 	}
 }

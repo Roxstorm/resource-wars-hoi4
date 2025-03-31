@@ -19,6 +19,7 @@ add_ideas = {
 	all_adults_serve
 	war_economy
 	EST_defend_our_independence_idea
+	EST_proud_small_nation
 }
 
 recruit_character = EST_kalju_kirsipuu

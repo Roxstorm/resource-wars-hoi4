@@ -23,6 +23,10 @@ ideologies = {
 			Neo_Nativism = {
 				color = { 150 118 78 }
 			}
+
+			National_Conservatism = {
+				color = { 1 131 190 }
+			}
 		}
 
 		dynamic_faction_names = {
