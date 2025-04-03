@@ -12,7 +12,19 @@ characters={
 			id=-1
 		}
 	}
-
+	AST_Emma_Cavanaugh={
+		name="Emma Cavanaugh"
+		portraits={
+			civilian={
+				large=gfx/leaders/AST/Portrait_Liberal_Emma_Cavanaugh.png
+			}
+		}
+		country_leader={
+			ideology=Liberal_conserativism
+			expire="1965.1.1.1"
+			id=-1
+		}
+	}
 	AST_eric_campbell={
 		name=AST_eric_campbell
 		portraits={

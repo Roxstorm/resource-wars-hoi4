@@ -990,6 +990,7 @@
  UBF_united_balkan_federation:0 "United Balkan Federation"
  UBF_united_balkan_federation_DEF:0 "the United Balkan Federation"
  UBF_united_balkan_federation_ADJ:0 "Balkan"
+ BUL_balkan_ssr_ct_ADJ:0 "Balkan"
 
  TBE_third_bulgarian_empire_neutrality:0 "Third Bulgarian Empire"
  TBE_third_bulgarian_empire_neutrality_DEF:0 "the Third Bulgarian Empire"
@@ -2009,3 +2010,5 @@ SWE_greater_nordic_reich_ADJ: "Swedish"
  BUL_balkan_ssr_ct:0 "Balkan People's Republic"
  BUL_balkan_ssr_ct_DEF:0 "the Balkan People's Republic"
  BUL_balkan_ssr_ct_ADJ:0 "Balkan"
+
+ ASU_NAP:0 "Libertas Australis"
