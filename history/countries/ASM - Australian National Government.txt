@@ -101,35 +101,20 @@ set_convoys = 50
 set_stability = 0.7
 
 set_politics = {
-	ruling_party = neutrality
+	ruling_party = fascism
 	last_election = "2054.1.1"
 	election_frequency = 48
 	elections_allowed = no
 
 }
 set_popularities = {
-	democratic = 15
-	fascism = 20
-	neutrality = 50
-	communism = 15
+	democratic = 5
+	fascism = 70
+	neutrality = 20
+	communism = 5
 }
 
 
 add_ideas = {
 	AST_climate_disaster
-	ASU_Corporate_Oligarch_Rule_Idea
-	ASU_Shadow_Ruled_Governor_Idea
-	ASU_High_Pollution_Idea
-	ASU_IssuesInWhyallah_Idea
-	ASU_StrikesInPirie_Idea
 	}
-
-create_country_leader = {
-	name = "Jesse Henry Taylor"
-	desc = ""
-	picture = gfx/leaders/AST/Portrait_Australia_Jesse_Taylor.png
-	expire = "1965.1.1"
-	ideology = Anarcho-Capitalism
-	traits = {
-	}
-}

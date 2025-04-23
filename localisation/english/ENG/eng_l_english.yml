@@ -1,5 +1,9 @@
 ﻿l_english:
     #BOOKMARK# 
+    BATTLE_OF_ANCHORAGE_NAME:0 "Battle of Anchorage"
+    BATTLE_OF_ANCHORAGE_DESC:0 "The Battle of Anchorage was a major battle in the Alaska Campaign of the Sino-American War. The battle was fought between the United States and the People's Republic of China from 2066 to 2077. The battle began with a Chinese invasion of Alaska, which was met with fierce resistance from American forces. The battle saw some of the most intense fighting of the war, with both sides suffering heavy casualties. The Americans eventually managed to push the Chinese back, but not before they had inflicted significant damage on the city of Anchorage."
+    ANNEXATION_OF_CANADA_NAME:0 "The Annexation Of Canada"
+    ANNEXATION_OF_CANADA_DESC:0 ""
 
     #NATIONAL FOCUSES#
     the_setting_sun:0 "The Setting Sun"

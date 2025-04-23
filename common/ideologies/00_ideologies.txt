@@ -27,6 +27,12 @@ ideologies = {
 			National_Conservatism = {
 				color = { 1 131 190 }
 			}
+			Liberal_conserativism = {
+				color = { 28 79 156 }
+			}
+			Oligarch_guided_democracy = {
+				color = { 255 215 0 }
+			}
 		}
 
 		dynamic_faction_names = {
@@ -257,7 +263,10 @@ ideologies = {
 			anarchism = {
 				color = { 000 000 0 }
 			}
-
+			
+			Anarcho-Capitalism = { 
+				color = { 253 253 0}
+			}		
 			Neo_Monarchism = {
 				color = { 184 61 186 }
 			}

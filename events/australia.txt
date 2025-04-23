@@ -42,3 +42,21 @@ news_event = {
 		name = australia_news.2.a
 	}
 }
+news_event = {
+	id = australia_news.3
+	title = australia_news.3.t
+	desc = australia_news.3.desc
+	picture = GFX_news_event_australian_bushfire1
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	immediate = {
+		set_global_flag = AUSTRALIA_BEGINNING
+	}
+	
+	option = {
+		name = australia_news.3.a
+	}
+}
