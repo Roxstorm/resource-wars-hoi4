@@ -138,6 +138,28 @@ country_event = {
 				transfer_state = 809
 				transfer_state = 190
 			}
+			# estonian stuff again
+			if = {
+				limit ={
+					OR = { 
+						has_global_flag = EST_estonian_soviet_war_ended
+						country_exists = EST
+					}
+				}
+				# do NOTHING
+				# skip estonia
+				country_event = {
+					id = soviet_collapse.7
+					days = 7
+				}
+				else = {
+					# not skipping
+					country_event = {
+						id = soviet_collapse.6
+						days = 7
+					}
+				}
+			}
 		}
 	}
 
@@ -147,6 +169,115 @@ country_event = {
 	}
 	option = {
 		name = soviet_collapse.5.d
+	}
+}
+# estonia leaved USSR
+country_event = {
+	id = soviet_collapse.6
+	title = soviet_collapse.6.t
+	desc = soviet_collapse.6.desc
+	picture = x
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			# estonia effects 
+			EST = {
+				transfer_state = 1160
+				transfer_state = 812
+				transfer_state = 811
+				transfer_state = 13
+				transfer_state = 813
+				transfer_state = 191
+			}
+			# next
+			country_event = {
+				id = soviet_collapse.7
+				days = 7
+			}
+		}
+	}
+
+	option = {
+		name = soviet_collapse.6.a
+		EST = { change_tag_from = SOV }
+	}
+	option = {
+		name = soviet_collapse.6.d
+	}
+}
+# lithuania leaved USSR
+country_event = {
+	id = soviet_collapse.7
+	title = soviet_collapse.7.t
+	desc = soviet_collapse.7.desc
+	picture = x
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			# lithuania effects 
+			LIT = {
+				transfer_state = 814
+				transfer_state = 188
+				transfer_state = 189
+				transfer_state = 11
+				transfer_state = 815
+				transfer_state = 784
+			}
+			# next
+			country_event = {
+				id = soviet_collapse.8
+				days = 7
+			}
+		}
+	}
+
+	option = {
+		name = soviet_collapse.7.a
+		LIT = { change_tag_from = SOV }
+	}
+	option = {
+		name = soviet_collapse.7.d
+	}
+}
+# BELARUSSIA leaved USSR
+country_event = {
+	id = soviet_collapse.8
+	title = soviet_collapse.8.t
+	desc = soviet_collapse.8.desc
+	picture = x
+	is_triggered_only = yes
+
+	immediate = {
+		hidden_effect = {
+			# potato effects 
+			BLR = {
+				transfer_state = 985
+				transfer_state = 95
+				transfer_state = 94
+				transfer_state = 96
+				transfer_state = 206
+				transfer_state = 194
+				transfer_state = 204
+				transfer_state = 1097
+				transfer_state = 241
+				transfer_state = 207
+			}
+			# next
+			country_event = {
+				id = soviet_collapse.9
+				days = 7
+			}
+		}
+	}
+
+	option = {
+		name = soviet_collapse.8.a
+		BLR = { change_tag_from = SOV }
+	}
+	option = {
+		name = soviet_collapse.8.d
 	}
 }
 ### SCRIPT ###

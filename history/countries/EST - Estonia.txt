@@ -52,6 +52,13 @@ if = {
 
 set_convoys = 5
 
+add_equipment_to_stockpile = {
+	type = infantry_equipment_1
+	amount = 6000
+	producer = EST
+}
+add_manpower = 75000
+
 set_politics = {
 	ruling_party = neutrality
 	last_election = "2045.3.31"
@@ -63,6 +70,11 @@ set_popularities = {
 	fascism = 22
 	communism = 24
 	neutrality = 26
+}
+
+country_event = {
+	id = estonia.1
+	days = 5
 }
 
 #set_cosmetic_tag = EST_liberation_front_ct
