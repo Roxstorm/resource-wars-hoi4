@@ -997,3 +997,11 @@ UPA = {
 	color = rgb { 96 31 31 }
 	color_ui = rgb { 96 31 31 }
 }
+PDF = {
+	color = rgb { 237 28 36 }
+	color_ui = rgb { 237 28 36 }
+}
+TBA = {
+	color = rgb { 203 201 188 }
+	color_ui = rgb { 203 201 188 }
+}

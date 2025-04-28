@@ -1,0 +1,14 @@
+state={
+	id=1191
+	name="STATE_1191"
+	history = {
+		owner = PDF
+		add_core_of = PDF
+	}
+	provinces={
+		10486 1082 12464 12492 10386 12335
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+	local_supplies=0.000
+}
