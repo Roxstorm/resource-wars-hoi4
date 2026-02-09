@@ -1009,3 +1009,8 @@ RCM = {
     color = rgb { 31 132 55 }
     color_ui = rgb { 31 132 55 }
 }
+
+TRB = {
+    color = rgb { 32 58 13 }
+    color_ui = rgb { 32 58 13 }
+}
