@@ -1005,3 +1005,7 @@ TBA = {
 	color = rgb { 203 201 188 }
 	color_ui = rgb { 203 201 188 }
 }
+RCM = {
+    color = rgb { 31 132 55 }
+    color_ui = rgb { 31 132 55 }
+}
